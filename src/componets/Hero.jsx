@@ -1,11 +1,12 @@
 import React from 'react'
 import hero from '../assets/hero.jpg'
 import Button from '../common/Button'
+import heroimg from "../assets/hero.jpg"
 
 const Hero = () => {
   return (
     <>
-      <div className='h-screen bg-[url("hero.jpg")] bg-cover'>
+      <div className='h-screen  bg-cover' style={{backgroundImage: `url(${heroimg})`}}>
         <div className='bg-black/50 w-full h-full p-5 flex flex-col items-center justify-center  md:items-start '>
           <div className=' w-fulll md:w-50% md:ml-30 '>
             <h2 className='text-3xl  text-orange-600 font-bold  '>Digital agency</h2>
